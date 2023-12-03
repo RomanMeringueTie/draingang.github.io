@@ -1,0 +1,234 @@
+@font-face {
+    font-family: TildaSans;
+    src: url(src/fonts/TildaSans-VF.ttf);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.head {
+    background-image: url(src/images/squad.jpg);
+    font-family: TildaSans;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.head__name {
+    color: white;
+    font-size: 60pt;
+    text-align: center;
+    padding-top: 80pt;
+}
+
+.head__logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: -50;
+}
+
+.head__button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 149, 0);
+    text-align: center;
+    font-size: 15pt;
+    color: white;
+    width: 120pt;
+    height: 30pt;
+    padding-top: 10pt;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.head__menu {
+    font-size: 13pt;
+    color: white;
+    padding-top: 30px;
+    padding-left: 15px;
+    font-weight: 600;
+}
+
+.history {
+    margin-left: 450px;
+    margin-right: 450px;
+    text-align: center;
+    font-family: TildaSans;
+    font-size: 22pt;
+    font-weight: 600;
+    color: black;
+}
+
+.history__link {
+    color: rgb(255, 149, 0);
+    text-decoration: none;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.history__info {
+    font-weight: 100;
+    font-size: 15pt;
+}
+
+.history__resourses {
+    margin-top: 30pt;
+    height: 60pt;
+}
+
+.members {
+    margin-top: 200pt;
+    margin-left: 150pt;
+}
+
+.members__title {
+    margin-top: -250pt;
+    font-family: TildaSans;
+    font-size: 35pt;
+    font-weight: 700;
+}
+
+.members__text {
+    font-family: TildaSans;
+    font-size: 15pt;
+    font-weight: 100;
+}
+
+.members__image {
+    object-fit: cover;
+    height: 170pt;
+    width: 170pt;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px 150px;
+}
+
+.column {
+    flex: 50%;
+    padding: 1px 150px;
+}
+
+.column img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.persons {
+    color: black;
+    margin-left: 150pt;
+    margin-right: 150pt;
+    font-family: TildaSans;
+    text-align: center;
+    margin-top: 500px;
+}
+
+.persons__name {
+    margin-top: 100pt;
+    font-size: 50pt;
+    font-weight: 700;
+}
+
+.persons__info {
+    font-size: 20pt;
+    font-weight: 300;
+}
+
+.persons__button {
+    margin-top: -1pt;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid black;
+    width: 200pt;
+    height: 30pt;
+    font-size: 15pt;
+    font-weight: 700;
+    padding-top: 10pt;
+}
+
+.importance {
+    font-family: TildaSans;
+    margin-left: 200pt;
+    margin-right: 200pt;
+    margin-top: 100pt;
+}
+
+.importance__title {
+    font-size: 30pt;
+    font-weight: 700;
+}
+
+.importance__text {
+    margin-top: 70pt;
+    margin-left: 210pt;
+    margin-right: 210;
+    font-size: 15pt;
+    font-weight: 300;
+}
+
+.importance__image {
+    margin-top: 50pt;
+    margin-left: 120pt;
+    float: left;
+    height: 40pt;
+    width: 40pt;
+}
+
+.contacts {
+    margin-right: 250pt;
+    margin-left: 250pt;
+    font-family: TildaSans;
+    text-align: center;
+    font-weight: 500;
+}
+
+.contacts__title {
+    margin-top: 200pt;
+    font-size: 15pt;
+}
+
+.contacts__phone {
+    font-size: 30pt;
+}
+
+.contacts__email {
+    margin-top: -30pt;
+    font-size: 30pt;
+    color: rgb(255, 149, 0);
+}
+
+.contacts__image {
+    height: 50pt;
+}
+
+@media (max-width: 800px) {
+    .head__name {
+        font-size: 30pt;
+    }
+
+
+}
+
+@media (max-width: 1200px) {
+    img {
+        width: 100%;
+        object-fit: cover;
+        height: 20%;
+    }
+}
+
+@media (max-width: 600px) {
+    img {
+        width: 100%;
+        object-fit: cover;
+        height: 20%;
+    }
+}
