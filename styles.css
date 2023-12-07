@@ -183,6 +183,7 @@ a {
 }
 
 .contacts {
+    margin-top: -100pt;
     margin-right: 250pt;
     margin-left: 250pt;
     font-family: TildaSans;
@@ -209,26 +210,292 @@ a {
     height: 50pt;
 }
 
+
+
+.videos {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.videos__title {
+    font-size: 30pt;
+    margin-top: 100px;
+    font-family: TildaSans;
+    text-align: center;
+    font-weight: 700;
+}
+
+.videos__video1 {
+
+    border: rgb(255, 149, 0);
+    border-style: solid;
+    border-radius: 50pt;
+    margin-top: 30pt;
+    margin-bottom: 20px;
+    width: 300;
+    height: 250;
+}
+
+.videos__video2 {
+
+    border: rgb(255, 149, 0);
+    border-style: solid;
+    border-radius: 50pt;
+    margin-top: 30pt;
+    margin-bottom: 20px;
+    width: 300;
+    height: 250;
+}
+
+.videos__video3 {
+
+    border: rgb(255, 149, 0);
+    border-style: solid;
+    border-radius: 50pt;
+    margin-top: 30pt;
+    margin-bottom: 20px;
+    width: 300;
+    height: 250;
+}
+
+.videos__video4 {
+
+    border: rgb(255, 149, 0);
+    border-style: solid;
+    border-radius: 50pt;
+    margin-top: 30pt;
+    margin-bottom: 20px;
+    width: 300;
+    height: 250;
+}
+
+.videos__text {
+    font-size: 20pt;
+    font-family: TildaSans;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-right: 32px;
+    padding-left: 20px;
+}
+
+
+.releases {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.releases__title {
+    font-size: 30pt;
+    margin-top: 100px;
+    font-family: TildaSans;
+    text-align: center;
+    font-weight: 700;
+}
+
+.releases__text {
+    font-size: 20pt;
+    font-family: TildaSans;
+    font-weight: 500;
+    margin-top: 20px;
+    display: none;
+}
+
+.releases__img {
+    margin-right: 100px;
+}
+
+
+.releases__button {
+    margin-top: 100pt;
+    display: block;
+    background-color: rgb(255, 149, 0);
+    text-align: center;
+    font-size: 15pt;
+    color: white;
+    width: 100pt;
+    height: 50pt;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.releases__close {
+    display: block;
+    background-color: rgb(255, 149, 0);
+    text-align: center;
+    font-size: 15pt;
+    color: white;
+    width: 100pt;
+    height: 50pt;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: none;
+}
+
+.contacts__button {
+    display: block;
+    background-color: rgb(255, 149, 0);
+    text-align: center;
+    font-size: 15pt;
+    color: white;
+    width: 100pt;
+    height: 50pt;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 1400px) {
+    .head__logo {
+        /* width: 100%; */
+        object-fit: cover;
+        height: 10%;
+    }
+
+    .history {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .members {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .members__text {
+        width: 80px;
+    }
+
+    .members__image {
+        height: 140px;
+        width: 140px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1px 90px;
+    }
+
+    .column {
+        flex: 50%;
+        padding: 1px 90px;
+    }
+
+    .contacts {
+        margin-right: 100pt;
+        margin-left: 100pt;
+    }
+
+    .contacts__phone {
+        margin-right: 50pt;
+        margin-left: 50pt;
+    }
+
+    .contacts__email {
+        margin-right: 50pt;
+        margin-left: 50pt;
+    }
+
+    .videos__text {
+        font-size: 18pt;
+        font-family: TildaSans;
+        font-weight: 500;
+        margin-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .importance {
+        margin-left: 20px;
+        margin-right: 2px;
+    }
+
+    .importance__text {
+        margin-top: 70pt;
+        margin-left: 100pt;
+        margin-right: 70pt;
+        font-size: 15pt;
+        font-weight: 300;
+    }
+}
+
 @media (max-width: 800px) {
-    .head__name {
-        font-size: 30pt;
+    .head__menu {
+        width: 50pt;
+        height: 100pt;
     }
 
-
-}
-
-@media (max-width: 1200px) {
-    img {
-        width: 100%;
+    .head__logo {
+        /* bac */
+        margin-top: -165px;
+        /* width: 100%; */
         object-fit: cover;
-        height: 20%;
+        height: 10%;
     }
-}
 
-@media (max-width: 600px) {
-    img {
-        width: 100%;
-        object-fit: cover;
-        height: 20%;
+    .head {
+        background-image: url(src/images/squad_cut.jpg);
+        height: 70%;
+    }
+
+    .history {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .members__image {
+        height: 120px;
+        width: 120px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1px 50px;
+    }
+
+    .column {
+        flex: 50%;
+        padding: 1px 50px;
+    }
+
+    .persons {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .importance {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .importance__text {
+        margin-top: 70pt;
+        margin-left: 150pt;
+        margin-right: 0pt;
+        font-size: 15pt;
+        font-weight: 300;
+    }
+
+    .contacts {
+        margin-right: 50pt;
+        margin-left: 50pt;
+    }
+
+    .contacts__phone {
+        font-size: 20pt;
+        margin-right: 0pt;
+        margin-left: 0pt;
+    }
+
+    .contacts__email {
+        margin-top: 20pt;
+        font-size: 18pt;
+        margin-right: 0pt;
+        margin-left: 0pt;
+    }
+
+    .members__title {
+        font-size: 20pt;
     }
 }
